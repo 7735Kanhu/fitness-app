@@ -7,7 +7,7 @@ import { Asset } from 'expo-asset';
 
 
 export default function ImageSlider() {
-  console.log(sliderImages);
+  // console.log(sliderImages);
   return (
     <Carousel
       data={sliderImages}

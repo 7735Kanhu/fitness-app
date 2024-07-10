@@ -24,7 +24,7 @@ export default function Exercises() {
 
     const getExercises = async(bodyPart)=>{
         let data= await fetchExercisesByBodyPart(bodyPart)
-        console.log('getData',data);
+        // console.log('getData',data);
         setExercises(data)
     }
   return (
